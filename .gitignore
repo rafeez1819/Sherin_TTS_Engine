@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Audio/model artifacts
+*.wav
+*.onnx
+*.tflite
+*.pt
+*.pth
+models/*.bin
+
+# Secrets
+.env
+*.pem
+*.key
